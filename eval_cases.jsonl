@@ -1,0 +1,4 @@
+{"question":"VPN 认证失败应该如何排查？","tenant":"a","groups":["employee"],"expected_doc_id":"A-VPN-01","forbidden_doc_ids":["A-SEC-01","B-VPN-01"]}
+{"question":"管理员权限变更需要谁审批？","tenant":"a","groups":["it"],"expected_doc_id":"A-SEC-01","forbidden_doc_ids":["B-VPN-01"]}
+{"question":"企业 B 使用哪种 VPN 客户端？","tenant":"b","groups":["employee"],"expected_doc_id":"B-VPN-01","forbidden_doc_ids":["A-VPN-01","A-SEC-01"]}
+{"question":"管理员权限变更需要谁审批？","tenant":"a","groups":["employee"],"expected_doc_id":null,"forbidden_doc_ids":["A-SEC-01","B-VPN-01"]}
